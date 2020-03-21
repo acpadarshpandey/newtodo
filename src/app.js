@@ -1,6 +1,8 @@
   const fs= require ('fs')
 const express=require('express')
 
+
+
 const app=express()
 app.get('/',function(req,resp){
     fs.readFile("src/html/index.html",function(err,data){
